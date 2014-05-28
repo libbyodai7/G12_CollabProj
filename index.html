@@ -19,6 +19,36 @@
 
 	
 <body>
+	
+	<!-- Facebook stuff -->
+	<script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '{your-app-id}',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+	
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fb_LT/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
+	
 <nav role="navigation" class="navbar navbar-default navbar-static-top">
  
     <div class="navbar-header">
@@ -62,7 +92,7 @@
        <!-- Carousel items -->
         <div class="carousel-inner">
             <div class="active item">
-                <h2>Videos</h2>
+                <h2><a href="videos.html">Videos</a></h2>
                 <div class="carousel-caption">
                   <h3>Watch our Videos Here!</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -70,7 +100,7 @@
             </div>
             
 			<div class="item">
-                <h2>Hubbard's Cupboard</h2>
+                <h2><a href="cupboard.html">Hubbard's Cupboard</a></h2>
                 <div class="carousel-caption">
                   <h3>Listen to Hubbard's Cupboard</h3>
                   <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
@@ -78,7 +108,7 @@
             </div>
             
 			<div class="item">
-                <h2>Ask Georgie</h2>
+                <h2><a href="ask.html">Ask Georgie</a></h2>
                 <div class="carousel-caption">
                   <h3>Get advice from our mentor Georgie Lock</h3>
                   <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -86,7 +116,7 @@
 			</div>
 			
 			<div class="item">
-                <h2>Characters</h2>
+                <h2><a href="Characters.html">Characters</a></h2>
                 <div class="carousel-caption">
                   <h3>Read up on our Characters</h3>
                   <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -94,7 +124,7 @@
 			</div>
 			
 			<div class="item">
-                <h2>Behind the Scenes</h2>
+                <h2><a href="production">Behind the Scenes</a></h2>
                 <div class="carousel-caption">
                   <h3>See what we got up to on production!</h3>
                   <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -114,11 +144,15 @@
 	
 	
 <div class ="twitter">
-<a class="twitter-timeline"  href="https://twitter.com/modrhymes"  data-widget-id="471415713257619459">Tweets by @modrhymes</a>
+	<a class="twitter-timeline"  href="https://twitter.com/modrhymes"  data-widget-id="471415713257619459">Tweets by @modrhymes</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
 
 </div>
 
+<div class ="share">
+	
+	<div class="fb-like-box" data-href="https://www.facebook.com/modrhymes" data-width="300" data-height="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+
+</div>
 </body>
 </html>
