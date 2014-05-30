@@ -4,16 +4,17 @@
 <meta charset="UTF-8">
 <title>Modern Rhymes</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-
-    
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
-<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="js/init.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/vid.css" rel="stylesheet" type="text/css">
 	
-<link href="main.css" rel="stylesheet">
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script src="text/tavascript" src="js/bootstrap.min.js"></script>
+<script src="text/tavascript" src="js/bootstrap.js"></script>
+	
+<link href="//vjs.zencdn.net/4.6/video-js.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/4.6/video.js"></script>
 
 </head> 
 
@@ -43,7 +44,7 @@
     </div>
 </nav>
 
-<section id="video-intro" data-speed="6" data-type="background">
+<section id="video-intro">
 	<div id="videoBanner">
 		<h1>Our Sessions <br><small>Watch one of our sessions here</small></h1>
 	</div>
@@ -62,7 +63,7 @@
 	
 	<div id="video-container">
 	
-	<video width="100%" height="auto" controls poster="images/mirror.jpg">
+	<video id="h_vid" class= "video-js vjs-default-skin" preload="auto" width="100%" height="auto" controls poster="images/mirror.jpg">
 		<source src="video/maru.mp4" type="video/mp4">
 		<source src="video/maru.ogg" type="video/ogg">
 		<h2>Your browser does not support the video tag. Please update your browser.</h2>
