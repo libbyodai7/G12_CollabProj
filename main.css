@@ -1,3 +1,4 @@
+
 h1{
 		padding: 1em;
 		background: #423547;
@@ -18,6 +19,13 @@ h3{
 	font-size: 1.5em;
 	margin: 0.5em;
 }
+
+ul{
+	list-style-type: none;
+}
+vid-img{
+	background-image: url(images/mirror.jpg);
+}
 .item{
     background: #333;    
     text-align: center;
@@ -35,4 +43,61 @@ h3{
 .twitter{
 	margin: 2em;
 	height: 20%;
+}
+
+videoBanner{
+	padding: 2em;
+	margin: 2em;
+	text-align: center;
+	background-color: #349134;
+}
+#video-intro{
+	text-align:center;
+	height:auto;
+	margin:0 auto;
+	width: 100%;
+	background-color: #344ab4;
+	position: relative;
+}
+
+#humphrey{
+	text-align:center;
+	background-color: #d23463;
+	height:100vh;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	width: 100%;
+	padding: 2em 0;
+}
+#felix{
+	text-align:center;
+	background-color: #a25457;
+	height:100vh;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	width: 100%;
+	padding: 2em 0;
+}
+#goldie{
+	text-align:center;
+	background-color: #c35687;
+	height:100vh;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	width: 100%;
+	padding: 2em 0;
+}
+#video-container{
+	width: 80%;
+	padding: 2em;
+	margin: 0 auto;
+	position: relative;
+	
+}
+.video{
+	width:100% !important;
+	height:auto !important;
 }
