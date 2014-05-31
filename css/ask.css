@@ -1,3 +1,19 @@
+#ask-georgie-header{ 
+`padding: 2em;
+   margin: 1em;
+   background: #f29ab9;
+   color: #fff;
+   line-height: 1.3em;
+   border: 4px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #f29ab9, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   font-weight: normal;
+}
+
+.small{
+	color: #fff;
+}
+
 #circle{ 
 	margin: 5% 30%;
 	padding: 2 em;
@@ -16,7 +32,12 @@ img{
 	margin: 5% 10% 5% 10%;
 	text-align: center;
 }
-
+.georgie-answers{
+	margin: 5% 10% 5% 10%;
+	text-align:center;
+	font-family: 'Pacifico', cursive;
+	font-size: 100%;
+}
 #ans1{
 display:none;
 }

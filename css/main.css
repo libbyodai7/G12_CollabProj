@@ -1,27 +1,43 @@
+@font-face{
+	font-family: forque;
+	src: url("../fonts/Forque.ttf");
+}
+
+@font-face{
+	font-family:limelight;
+	src: url("../fonts/Limelight.ttf");
+}
 
 h1{
+		font-family: forque;
 		padding: 1em;
-		background: #423547;
-		color: #374194;
 		border-radius: 5px;
 		text-align: center;
 }
 	
 h2{
+	font-family: limelight;
     margin: 0;     
-    color: #666;
     padding: 0.5em;
-    font-size: 2em;
-    font-family: "trebuchet ms", sans-serif;    
+    font-size: 200%; 
 }
 
 h3{
-	font-size: 1.5em;
+	font-family: limelight;
+	font-size: 100%;
 	margin: 0.5em;
+}
+
+img{
+	max-width: 100% !important;
 }
 
 ul{
 	list-style-type: none;
+}
+
+li{
+	font-family: limelight;
 }
 
 .item{
