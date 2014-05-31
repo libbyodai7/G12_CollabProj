@@ -1,0 +1,45 @@
+
+h1{
+		padding: 1em;
+		background: #423547;
+		color: #374194;
+		border-radius: 5px;
+		text-align: center;
+}
+	
+h2{
+    margin: 0;     
+    color: #666;
+    padding: 0.5em;
+    font-size: 2em;
+    font-family: "trebuchet ms", sans-serif;    
+}
+
+h3{
+	font-size: 1.5em;
+	margin: 0.5em;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.item{
+    background: #333;    
+    text-align: center;
+	border-radius: 5px;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 1em;
+	border-radius: 5px;
+}
+.pictureSlide{
+	margin: 1em 2em;
+}
+
+.twitter{
+	margin: 2em;
+	height: 20%;
+}
+

@@ -1,0 +1,59 @@
+videoBanner{
+	margin: 2em;
+	text-align: center;
+	background-color: #349134;
+	position: absolute;
+	height: 30vh;
+}
+#video-intro{
+	text-align:center;
+	height:auto;
+	margin:0 auto;
+	width: 100%;
+	position: relative;
+	height: 50vh;
+}
+
+#humphrey{
+	text-align:center;
+	background-image:url("../images/humphy_video_background.jpg");
+	background-repeat:repeat;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	width: 100%;
+	padding: 2em 0;
+}
+#felix{
+	text-align:center;
+	background-image:url("../images/felix_video_background.jpg");
+	background-repeat:repeat;
+	height:100vh;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	width: 100%;
+	padding: 2em 0;
+}
+#goldie{
+	text-align:center;
+	background-image:url("../images/goldie_video_background.jpg");
+	background-repeat:repeat;
+	height:100vh;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	width: 100%;
+	padding: 2em 0;
+}
+.video-container{
+	width: 80%;
+	padding: 2em;
+	margin: 0 auto;
+	position: relative;
+	max-height: 80vmin;
+}
+.video{
+	width:80%;
+	height:auto;
+}
