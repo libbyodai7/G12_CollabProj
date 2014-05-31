@@ -10,13 +10,16 @@
 }
 
 .prof-photo{ 
-	margin: 5% 30%;
+	margin: 5% 25% 5% 25%;
 	padding: 2 em;
-	height: 10%;
-	width:auto;
+	height: auto;
+	width:50%;
 	
 }
 
 h2{
 	text-align:center;
+}
+img{
+	max-width: 100% !important;
 }

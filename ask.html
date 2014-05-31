@@ -6,6 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <link href="css/ask.css" rel="stylesheet" type="text/css">
 	
@@ -16,6 +18,8 @@
 </head> 
 	
 <body>
+
+	
 <nav role="navigation" class="navbar navbar-default navbar-static-top">
  
     <div class="navbar-header">
@@ -23,9 +27,10 @@
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			
         </button>
         <a href="index.html" class="navbar-brand">Modern Rhymes</a>
     </div>
@@ -34,7 +39,7 @@
         <ul class="nav navbar-nav">
             <li><a href="videos.html">Our Sessions</a></li>
 			<li><a href="cupboard.html">Hubbard's Cupboard</a></li>
-			<li class="active"><a href="ask.html">Ask Georgie</a></li>
+			<li><a href="ask.html">Ask Georgie</a></li>
             <li><a href="characters.html">Success Stories</a></li>
 			<li><a href="production.html">Behind the Scenes</a></li>
         </ul>
@@ -47,7 +52,7 @@
 	
 <div id="circle">
 	
-	<img src="images/circle.jpg" class="img-circle" alt="georgie">
+	<img src="images/circle.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
 </div>
 	
 	<h3>Your mentor Georgie!</h3>
@@ -64,17 +69,27 @@
 	
 <section id ="query">
 	<form>
-	<div class="row">
-		<div class="col-xs-7">
 	<div class="input-group">
-		<input type="text" class = "form-control" placeholder ="Type your problem here&hellip;">
+		<input type="text" class= "forma-control" placeholder ="Type your problem here&hellip;" size= "40">
 		<span class="input-group-btn">
-			<button type="button" class="btn btn-default"> Submit</button>
+			<button type="button" class="btn btn-default" id="ask"> Ask Georgie! </button>
 		</span>
-	</div>
-	</div>
+		<span class="input-group-btn">
+			<button type="button" class="btn btn-default" id="ask"> Ask another question. </button>
+		</span>
 	</div>
 </form>
 </section>
+
+	<script>
+		
+	var answers = ["ans1", "ans2", "ans3", "ans4", "ans5", "ans6", "ans7", "ans8"];
+	var randAns = answers[Math.floor(Math.random()*answers.length)];
+	var ask = document.getElementById('ask');
+	
+	ask.onclick = function()
+	{ document.getElementById(randAns).style.display = 'block'; };
+	
+	</script>
 </body>
 </html>
