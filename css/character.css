@@ -1,37 +1,78 @@
-`#character-header{
-	padding: 2em;
-   margin: 1em;
-   background: #f29ab9;
+#apple{ 
+	margin: -10% 0 0 0;
+}
+#ch-h{
+	padding: 0.7em;
+	margin: 3em;
+   background: #8d7de0;
    color: #fff;
    line-height: 1.3em;
-   border: 4px dashed #fff;
    border-radius: 10px;
-   box-shadow: 0 0 0 4px #f29ab9, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   box-shadow: 0 0 0 0 #646c68, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
    font-weight: normal;
+	text-shadow: 3px 3px #545b57;
+	height: 13em;
 }
 .character-section{
 	text-align:justify;
-	background-color: #f5342f;
+	color: #fff;
+	
 	margin: 0 auto;
 	padding: 10%;
 }
-
+#pete{
+	background-color: #56b04d;
+}
+#pete-info{
+	
+}
+#wolf{
+	background-color: #4e5593;
+}
+#humphrey{
+	background-color: #937654;
+}
 #rudy{
-	background-color: #fffff4;
+	background-color: #fb5151;
+}
+#alison{
+	background-color:#1abec0;
+}
+#clo{
+	background-color:#38975c;
+}
+#felix{
+	background-color:#ff7a32;
 }
 
 .prof-photo{ 
-	margin: 5% 25% 5% 25%;
-	height: auto;
-	width:50%;
-	padding: 4px;
-	border: 3px dashed #111111;
-	background-color: #aaaaaa;
+	margin: 5% 20% 5% 45%;
+	border-radius: 50% 50%;
+	box-shadow: 0 0 0 0 #646c68, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
 	
 }
-
+p{
+	padding: 0 20%;
+}
 h2{
+	color: #ffffff;
 	text-align:center;
+	font-size: 400%;
+	margin: 0 0 5% 0;
+}
+h5{
+	margin: -5% 0 -10% 0;
+}
+
+h3{
+	padding: 0 20%;
+	font-size: 150%;
+}
+h4{
+	padding: 0 20%;
+	font-size: 200%;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 3px 3px #545b57;	
 }
 img{
 	max-width: 100% !important;

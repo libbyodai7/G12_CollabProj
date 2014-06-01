@@ -10,24 +10,34 @@
 
 h1{
 		font-family: forque;
-		padding: 1em;
+		text-align: center;
+		font-size: 600%;
+}
+
+h5{
+		font-family: forque;
 		border-radius: 5px;
 		text-align: center;
+		font-size: 200%;
 }
-	
+
 h2{
 	font-family: limelight;
     margin: 0;     
     padding: 0.5em;
     font-size: 200%; 
+	text-shadow: 3px 3px #545b57;
 }
 
 h3{
 	font-family: limelight;
 	font-size: 100%;
 	margin: 0.5em;
+	text-shadow: 3px 3px #545b57;	
 }
-
+#apple{ 
+	margin: -10% 0 0 0;
+}
 img{
 	max-width: 100% !important;
 }

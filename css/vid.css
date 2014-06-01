@@ -1,49 +1,80 @@
-videoBanner{
-	margin: 2em;
-	text-align: center;
-	background-color: #349134;
-	position: absolute;
-	height: 30vh;
+#apple{ 
+	margin: -10% 0 0 0;
 }
-#video-intro{
-	text-align:center;
-	height:auto;
-	margin:0 auto;
-	width: 100%;
-	position: relative;
-	height: 50vh;
+#videoBanner{
+	padding: 0.7em;
+	margin: 3em;
+   background: #e43030;
+   color: #fff;
+   line-height: 1.3em;
+   border-radius: 10px;
+   box-shadow: 0 0 0 0 #646c68, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   font-weight: normal;
+	text-shadow: 3px 3px #545b57;
+	height: 13em;
 }
 
-#humphrey{
+h2{
+	color: #ffffff;
 	text-align:center;
-	background-image:url("../images/humphy_video_background.jpg");
-	background-repeat:repeat;
-	margin: 0 auto;
+	font-size: 400%;
+	margin: 0 0 5% 0;
+}
+h5{
+	margin: -5% 0 -10% 0;
+}
+h3{
+	font-family: limelight;
+	font-size: 100%;
+	margin: 5% 20% -10% 20%;
+}
+
+#video-intro{
+	text-align:center;
+	padding 20% 20% 20% 20%;
 	width: 100%;
 	position: relative;
+	background-color: #76979c;
+	font-family: limelight;
+	font-size: 300%;
+	height: auto;
+	color: white;
+}
+
+li a{
+	font-family: limelight;
+	font-size: 50%;
+	margin: 0.5em;
+	color: #fff;
+}
+#humphrey{
+	text-align:center;
+	background-repeat:repeat;
+	background-color: #f9fbba;
+	margin: 0 auto;
 	width: 100%;
+	height: auto;
+	position: relative;
 	padding: 2em 0;
 }
 #felix{
 	text-align:center;
-	background-image:url("../images/felix_video_background.jpg");
 	background-repeat:repeat;
-	height:100vh;
+	height: auto;
 	margin: 0 auto;
 	width: 100%;
 	position: relative;
-	width: 100%;
+	background-color: #ff7a32;
 	padding: 2em 0;
 }
 #goldie{
 	text-align:center;
-	background-image:url("../images/goldie_video_background.jpg");
 	background-repeat:repeat;
-	height:100vh;
+	background-color: #fbb7d2;
+	height: auto;
 	margin: 0 auto;
 	width: 100%;
 	position: relative;
-	width: 100%;
 	padding: 2em 0;
 }
 .video-container{

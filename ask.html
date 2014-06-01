@@ -33,7 +33,7 @@
 			<span class="icon-bar"></span>
 			
         </button>
-        <a href="index.html" class="navbar-brand">Modern Rhymes</a>
+        <a href="index.html" class="navbar-brand"><img src="images/logo.png" id="apple"></a>
     </div>
     <!-- Collection of nav links and other content for toggling -->
     <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -47,16 +47,18 @@
     </div>
 </nav>
     <div id=ask-georgie-header>
-    <h1>Ask Georgie!<br> <small>Type in the box and get your answer!</small></h1>
+    <h1>Ask Georgie!<br> <h5>Type in the box and get your answer!</h5></h1>
 	</div>
 <section id ="answer">
 	
 <div id="circle">
 	
-	<img src="images/circle.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
+	
+	
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
 </div>
 	
-	<h3>Your mentor Georgie!</h3>
+	<h3>Your Mentor Georgie!</h3>
 
 	<div id ="ans1" class="georgie-answers"><p>you suck</p></div>
 	<div id ="ans2" class="georgie-answers"><p>2</p></div>
@@ -72,11 +74,12 @@
 	<form>
 	<div class="input-group">
 		<input type="text" class= "forma-control" placeholder ="Type your problem here&hellip;" size= "40">
+		<br>
 		<span class="input-group-btn">
-			<button type="button" class="btn btn-default" id="ask"> Ask Georgie! </button>
+		</span><button type="button" class="btn btn-default" id="ask"> Ask Georgie! </button>
 		</span>
 		<span class="input-group-btn">
-			<button type="button" class="btn btn-default" id="ask"> Ask another question. </button>
+			<button type="button" class="btn btn-default" id="reset"> Ask another question. </button>
 		</span>
 	</div>
 </form>
@@ -87,10 +90,39 @@
 	var answers = ["ans1", "ans2", "ans3", "ans4", "ans5", "ans6", "ans7", "ans8"];
 	var randAns = answers[Math.floor(Math.random()*answers.length)];
 	var ask = document.getElementById('ask');
+	var reset = document.getElementById('reset');
 	
 	ask.onclick = function()
 	{ document.getElementById(randAns).style.display = 'block'; };
+		
+	for (
+	reset.onclick = function()
+	{document.getElementById(randAns).style.display = 'none';};
 	
 	</script>
+	
+<div class ="share">
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5387745473a9bd0d"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'right',
+      'numPreferredServices' : 5
+    }, 
+    'follow' : {
+      'services' : [
+        {'service': 'facebook', 'id': 'modrhymes'},
+        {'service': 'twitter', 'id': 'modrhymes'},
+        {'service': 'youtube', 'id': 'UCEzjcZvjNNMzyfdVDwJI8uA'}
+      ]
+    }   
+  });
+</script>
+<!-- AddThis Smart Layers END -->
+
+</div>
 </body>
 </html>

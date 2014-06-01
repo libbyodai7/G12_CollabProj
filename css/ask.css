@@ -1,6 +1,10 @@
+#apple{ 
+	margin: -10% 0 0 0;
+}
+
 #ask-georgie-header{ 
-`padding: 2em;
-   margin: 1em;
+	padding: 0.7em;
+   margin: 3em;
    background: #f29ab9;
    color: #fff;
    line-height: 1.3em;
@@ -8,6 +12,7 @@
    border-radius: 10px;
    box-shadow: 0 0 0 4px #f29ab9, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
    font-weight: normal;
+	text-shadow: 3px 3px #545b57;
 }
 
 .small{
@@ -15,15 +20,20 @@
 }
 
 #circle{ 
-	margin: 5% 30%;
-	padding: 2 em;
-	height: 10%;
-	width:auto;
+
+	margin: 5% 25% 5% 40%;
+	border-radius: 50% 50%;
+	box-shadow: 0 0 0 0 #646c68, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
 }
 
+
 h3{
-	text-align: center;
+	color: #aaa;
+	text-shadow: -2px 0px 4px rgba(10, 10, 10, 1);
+	padding: 0 20%;
+	font-size: 300%;
 }
+
 img{
 	max-width: 100% !important;
 }
@@ -61,3 +71,17 @@ display:none;
 }
 #ans8{
 display:none;}
+
+#query{
+	padding: 0.7em;
+   margin: 3em;
+   background: #f29ab9;
+   color: #fff;
+   line-height: 1.3em;
+   border: 4px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #f29ab9, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   font-weight: normal;
+	text-shadow: 3px 3px #545b57;
+	height: auto;
+}
