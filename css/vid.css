@@ -22,7 +22,7 @@ h5{
 	margin: -5% 0 -10% 0;
 }
 h3{
-	font-family: limelight;
+	font-family: 'Bree Serif', serif;
 	font-size: 100%;
 	margin: 5% 20% -10% 20%;
 }
@@ -39,8 +39,8 @@ h3{
 	color: white;
 }
 
-li a{
-	font-family: limelight;
+#video intro li a{
+	font-family: 'Bree Serif', serif;
 	font-size: 50%;
 	margin: 0.5em;
 	color: #fff;

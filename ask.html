@@ -8,10 +8,13 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+<link href='http://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <link href="css/ask.css" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
 	
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script src="text/tavascript" src="js/bootstrap.min.js"></script>
@@ -47,74 +50,104 @@
         </ul>
     </div>
 </nav>
-    <div id=ask-georgie-header>
-    <h1>Ask Georgie!<br> <h5>Type in the box and get your answer!</h5></h1>
+    <div id=ask-georgie-header class="container">
+    <h1>Ask Georgie!<br> <h5>Type in the box below and get your answer!</h5></h1>
 	</div>
 <section id ="answer">
-	
 
-	
-	<h3>Your Mentor Georgie!</h3>
-
-	<div id ="ans1" class="georgie-answers"><div id="circle">
+	<div id ="ans1" class="georgie-answers" "container"><div id="circle" "container">
 	
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
 </div>
-		<p>you suck</p></div>
+		you suck</div>
+	
 	<div id ="ans2" class="georgie-answers"><div id="circle">
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
 </div>
-		<p>2</p></div>
+		2</div>
 	<div id ="ans3" class="georgie-answers"><div id="circle">
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
 		
-		<p>3</p></div>
+		3</div>
 	<div id ="ans4" class="georgie-answers"><div id="circle">
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		<p>4</p></div>
+		4</div>
 	<div id ="ans5" class="georgie-answers"><div id="circle">
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		<p>6</p></div>
+		6</div>
 	<div id ="ans6" class="georgie-answers"><div id="circle">
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		<p>7</p></div>
+		</div>
 	<div id ="ans7" class="georgie-answers"><div id="circle">
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		<p>8</p></div>
+		8</div>
 	<div id ="ans8" class="georgie-answers"><div id="circle">
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		<p>9</p></div>
+		9</div>
 </section>
 	
-<section id ="query">
+<section id ="query" class="container">
 	<form>
 	<div class="input-group">
-	<textarea id="ask-space" rows="4" cols="50"> Type your problem here.</textarea>
+	<textarea id="ask-space" rows="4" cols="50"> Type your question here.</textarea>
+		<div id="buttons">
 		<span class="input-group-btn">
-		</span><button type="button" class="btn btn-default" id="ask"> Ask Georgie! </button>
+		</span><button type="button" class="btn btn-custom" id="ask"> Ask Georgie! </button>
 		</span>
 		<span class="input-group-btn">
-			<button type="button" class="btn btn-default" id="reset"> Ask another question. </button>
-		</span>
+			</span><button type="button" class="btn btn-custom" id="reset"> Ask another question. </button>
+		</span> </div>
 	</div>
 </form>
 </section>
 	
 	<section id ="prev-quest">
-		<h2> Previous questions!</h2>
 		
-		<div class="past-quest"><p>Dear Georgie,
-A few nights ago I decided to attend a party, I didn’t know the host, he was a friend of a friend.
+		<div id="quest-head"><h2> Previous questions!</h2></div>
+		
+		<div class="past-quest"><p>Dear Georgie,<br><br>
+A few nights ago I decided to attend a party, I didn’t know the host, he was a friend of a friend. <br><br>
 Anyway, I got drunk, passed out and lost my shoe, my friend texted me saying that this guy with a
 foot fetish has been hounding everyone at the party, begging them to tell him where I live. He says
-he has to know because the smell is wearing off on the shoe and he needs the real thing.
+he has to know because the smell is wearing off on the shoe and he needs the real thing.<br><br>
 What should I do?
 --Cindy </p></div>
 		
-		<div class="past-ans"></div>
-	<p>It’s entirely common to be scared of commitment, this man sounds lovely and affectionate, I say go for it.<br>
-Regards,
-<h6>Georgie </h6></p>	
+		<div class="past-ans">
+	<p> It’s entirely common to be scared of commitment, this man sounds lovely and affectionate. <br><br>I say go for it.<br><br>
+Regards,<br></p>	
+<h6>Georgie<h6> </div>
+		
+		<div class = "past-quest"><p>Did I leave my glitter at the meeting?<br><br>
+--Pete</p></div>
+		<div class = "past-ans"><p>You used up all your glitter, then you cried for fifteen minutes. <br><br>This isn’t what I intended the
+website to be used for.<br><br></p><h6>Georgie</h6></div>
+	
+		<div class = "past-quest"><p>All my life people have been calling me “Uggy Ducky”, all of my friends in my year are going through puberty but I’m yet to change. I hate being teased; I’ve hated it all my life. <br><br>My mum says that I’m only young, that before I know it I’ll be beautiful, but I’m sick of waiting to find out, what do you
+think?<br><br>-Ducky</p></div>
+		<div class = "past-ans"><p>Dear Ducky, <br><br>
+Your mum sounds out of touch, I say get plastic surgery, why wait to find out if you’ll be beautiful?<br><br>
+You’re probably not going to change that much anyway.<br><br>
+Regards,<br><br></p><h6>Georgie</h6></div>
+	
+		<div class = "past-quest"><p>Dear Georgie, <br><br>
+My stupid son just traded our cow, the families only source of income for jelly beans, what would you do in this situation?<br><br>
+--Jmom</p></div>
+		<div class = "past-ans"><p>Dear Jmom, <br><br>
+Get out of there, pawn him off on the father. If there isn’t a father just find a quiet place to leave him. He has already doomed you, your only chance is to escape. <br><br>
+Regards,<br><br></p><h6>Georgie</h6></div>
+		
+		<div class = "past-quest"><p>Dear Georgie, <br><br>
+You should give that Felix guy a break, he’s obviously smarter than you, it’s no wonder he doesn’t want to confide in you, how would you feel entrusting your personal secrets to an idiot? <br><br>
+--Anonymous</p></div>
+		<div class = "past-ans"><p>Well, “Anonymous” if you really knew Felix, you’d know that he is a narcissistic trouble-maker who thinks he’s much smarter than he actually is. We’ll talk about this next session.<br><br></p><h6>Georgie</h6></div>
+	
+		<div class = "past-quest"><p>Hello? <br><br>
+1 x Medium pepperoni<br><br><br>
+1 x Strawberry milkshake<br><br><br>
+Uhhhh…<br><br><br><br><br>
+I’ll pay by card</p></div>
+		<div class = "past-ans"><p>I know that’s you, Alison. This is too much, I can’t do this anymore.<br><br></p><h6>Georgie</h6></div>
 	
 	</section>
 
@@ -130,8 +163,8 @@ Regards,
 		
 	reset.onclick = function()
 	{
-	document.getElementsByClassName('georgie-answers').style.display = 'none';
-	document.getElementById("ask-space").value = ""; };
+	document.getElementById(randAns).style.display = 'none';
+	document.getElementById("ask-space").value = "Type your question here."; };
 	
 	</script>
 	

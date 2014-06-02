@@ -1,6 +1,4 @@
-#apple{ 
-	margin: -10% 0 0 0;
-}
+
 #ch-h{
 	padding: 0.7em;
 	margin: 3em;
@@ -22,9 +20,7 @@
 #pete{
 	background-color: #56b04d;
 }
-#pete-info{
-	
-}
+
 #wolf{
 	background-color: #4e5593;
 }
@@ -73,6 +69,7 @@ h5{
 h3{
 	padding: 0 20%;
 	font-size: 150%;
+	font-family: 'Bree Serif', serif;
 }
 h4{
 	padding: 0 20%;

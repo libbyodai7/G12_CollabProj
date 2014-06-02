@@ -9,6 +9,20 @@ h1{
 		text-align: center;
 		font-size: 600%;
 }
+h2{
+	font-family: 'Bree Serif', serif;
+    margin: 0;     
+    padding: 5%;
+    font-size: 40px; 
+	text-shadow: 3px 3px #545b57;
+}
+h3{
+	font-family: 'Bree Serif', serif;
+	font-size: 32px;
+	margin: 0.5em;
+	text-shadow: 3px 3px #545b57;	
+}
+
 
 h5{
 		font-family: forque;
@@ -17,25 +31,114 @@ h5{
 		font-size: 200%;
 }
 
-h2{
-	font-family: 'Montserrat', sans-serif;
-    margin: 0;     
-    padding: 0.5em;
-    font-size: 200%; 
-	text-shadow: 3px 3px #545b57;
-}
 
-h3{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 100%;
-	margin: 0.5em;
-	text-shadow: 3px 3px #545b57;	
-}
+
 
 p{
 	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
 }
+
+.navbar-custom {
+  background-color: #c2e9fc;
+  border-color: #a2defa;
+	font-family: 'Bree Serif', serif;
+}
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #c0c0c0;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #c0c0c0;
+  background-color: #a2defa;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #a0ddfa;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #a2defa;
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c0c0c0;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c0c0c0;
+    background-color: #a2defa;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+  color: #c0c0c0;
+}
+
 #apple{ 
 	margin: -10% 0 0 0;
 }
@@ -43,21 +146,17 @@ img{
 	max-width: 100% !important;
 }
 
-ul{
+
+a{
 	list-style-type: none;
+	color: #fff;
 }
-
-li{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 10px;
-	text-align: right;
-}
-
 .item{
-    background: #333;    
+    background: #333;  
+	color: #fff;
     text-align: center;
 	border-radius: 5px;
-    height: 300px !important;
+    height: 500px !important;
 }
 .carousel{
     margin-top: 1em;
@@ -72,12 +171,17 @@ li{
 	padding: 1em 2em;
 }
 #about{
-	padding: 0 20%;
+	padding: 5% 20%;
 	margin: 0 auto;
+	background: #cecece;
+	border-radius: 10px;
+	color: #fff;
+	width: 70%;
 }
 .twitter{
-	margin: 2em;
+	margin: 0 auto;
 	height: 20%;
-	padding: 20% 0;
+	width: 100%;
+	padding: 0 20%;
 }
 
