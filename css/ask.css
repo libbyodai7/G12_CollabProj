@@ -1,7 +1,10 @@
-
+body{
+	background: #ffe0e5;
+}
 #ask-georgie-header{ 
 	padding: 0.7em;
-   margin: 3em;
+   margin: 3em auto;
+	width: 80%;
    background: #f29ab9;
    color: #fff;
    line-height: 1.3em;
@@ -37,7 +40,6 @@ img{
 
 .btn-custom {
 	margin: 10px 4px;
-	color: #fff;
 	font-family: 'Pacifico', cursive;
   background-color: hsl(350, 86%, 62%) !important;
   background-repeat: repeat-x;
@@ -50,7 +52,7 @@ img{
   background-image: -o-linear-gradient(top, #f14a66, #f14a66);
   background-image: linear-gradient(#f14a66, #f14a66);
   border-color: #f14a66 #f14a66 hsl(350, 86%, 62%);
-  color: #333 !important;
+  color: #fff !important;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.00);
   -webkit-font-smoothing: antialiased;
 }
@@ -143,7 +145,8 @@ p{
 	margin: 0 auto;
 }
 .past-quest{
-	background: #eaeaea;
+	background: #9c9c9c;
+	color: #fff;
 	border-radius: 10px;
 	padding: 0.7em;
 	margin: 5%;
