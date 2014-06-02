@@ -51,30 +51,44 @@
 	</div>
 <section id ="answer">
 	
-<div id="circle">
-	
-	
-	
-	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
-</div>
+
 	
 	<h3>Your Mentor Georgie!</h3>
 
-	<div id ="ans1" class="georgie-answers"><p>you suck</p></div>
-	<div id ="ans2" class="georgie-answers"><p>2</p></div>
-	<div id ="ans3" class="georgie-answers"><p>3</p></div>
-	<div id ="ans4" class="georgie-answers"><p>4</p></div>
-	<div id ="ans5" class="georgie-answers"><p>6</p></div>
-	<div id ="ans6" class="georgie-answers"><p>7</p></div>
-	<div id ="ans7" class="georgie-answers"><p>8</p></div>
-	<div id ="ans8" class="georgie-answers"><p>9</p></div>
+	<div id ="ans1" class="georgie-answers"><div id="circle">
+	
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
+</div>
+		<p>you suck</p></div>
+	<div id ="ans2" class="georgie-answers"><div id="circle">
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
+</div>
+		<p>2</p></div>
+	<div id ="ans3" class="georgie-answers"><div id="circle">
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
+		
+		<p>3</p></div>
+	<div id ="ans4" class="georgie-answers"><div id="circle">
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
+		<p>4</p></div>
+	<div id ="ans5" class="georgie-answers"><div id="circle">
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
+		<p>6</p></div>
+	<div id ="ans6" class="georgie-answers"><div id="circle">
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
+		<p>7</p></div>
+	<div id ="ans7" class="georgie-answers"><div id="circle">
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
+		<p>8</p></div>
+	<div id ="ans8" class="georgie-answers"><div id="circle">
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
+		<p>9</p></div>
 </section>
 	
 <section id ="query">
 	<form>
 	<div class="input-group">
-		<input type="text" class= "forma-control" placeholder ="Type your problem here&hellip;" size= "40">
-		<br>
+	<textarea id="ask-space" rows="4" cols="50"> Type your problem here.</textarea>
 		<span class="input-group-btn">
 		</span><button type="button" class="btn btn-default" id="ask"> Ask Georgie! </button>
 		</span>
@@ -84,6 +98,24 @@
 	</div>
 </form>
 </section>
+	
+	<section id ="prev-quest">
+		<h2> Previous questions!</h2>
+		
+		<div class="past-quest"><p>Dear Georgie,
+A few nights ago I decided to attend a party, I didn’t know the host, he was a friend of a friend.
+Anyway, I got drunk, passed out and lost my shoe, my friend texted me saying that this guy with a
+foot fetish has been hounding everyone at the party, begging them to tell him where I live. He says
+he has to know because the smell is wearing off on the shoe and he needs the real thing.
+What should I do?
+--Cindy </p></div>
+		
+		<div class="past-ans"></div>
+	<p>It’s entirely common to be scared of commitment, this man sounds lovely and affectionate, I say go for it.
+Regards,
+Georgie </p>	
+	
+	</section>
 
 	<script>
 		
@@ -95,9 +127,10 @@
 	ask.onclick = function()
 	{ document.getElementById(randAns).style.display = 'block'; };
 		
-	for (
 	reset.onclick = function()
-	{document.getElementById(randAns).style.display = 'none';};
+	{
+	document.getElementsByClassName('georgie-answers').style.display = 'none';
+	document.getElementById("ask-space").value = ""; };
 	
 	</script>
 	

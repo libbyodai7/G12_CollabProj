@@ -8,6 +8,11 @@
 	src: url("../fonts/Limelight.ttf");
 }
 
+@font-face{
+	font-family:tilli;
+	src: url("../fonts/tilli.tff");
+}
+
 h1{
 		font-family: forque;
 		text-align: center;
@@ -34,6 +39,11 @@ h3{
 	font-size: 100%;
 	margin: 0.5em;
 	text-shadow: 3px 3px #545b57;	
+}
+
+p{
+	font-family: tilli;
+	font-size: 100%;
 }
 #apple{ 
 	margin: -10% 0 0 0;
