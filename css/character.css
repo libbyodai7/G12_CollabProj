@@ -16,7 +16,6 @@
 .character-section{
 	text-align:justify;
 	color: #fff;
-	
 	margin: 0 auto;
 	padding: 10%;
 }
@@ -46,11 +45,18 @@
 }
 
 .prof-photo{ 
+	display: flex;
+	display: -webkit- flex;
+    flex-direction: column;
+    justify-content: center;
 	margin: 5% 20% 5% 45%;
 	border-radius: 50% 50%;
 	box-shadow: 0 0 0 0 #646c68, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
-	
+	vertical-align: middle;
 }
+
+
+
 p{
 	padding: 0 20%;
 }

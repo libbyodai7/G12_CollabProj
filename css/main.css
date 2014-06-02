@@ -3,15 +3,6 @@
 	src: url("../fonts/Forque.ttf");
 }
 
-@font-face{
-	font-family: limelight;
-	src: url("../fonts/Limelight.ttf");
-}
-
-@font-face{
-	font-family: tilli;
-	src: url("../fonts/tilli.tff");
-}
 
 h1{
 		font-family: forque;
@@ -27,7 +18,7 @@ h5{
 }
 
 h2{
-	font-family: limelight;
+	font-family: 'Montserrat', sans-serif;
     margin: 0;     
     padding: 0.5em;
     font-size: 200%; 
@@ -35,15 +26,15 @@ h2{
 }
 
 h3{
-	font-family: limelight;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 100%;
 	margin: 0.5em;
 	text-shadow: 3px 3px #545b57;	
 }
 
 p{
-	font-family: tilli;
-	font-size: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
 }
 #apple{ 
 	margin: -10% 0 0 0;
@@ -57,7 +48,9 @@ ul{
 }
 
 li{
-	font-family: limelight;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	text-align: right;
 }
 
 .item{
@@ -74,8 +67,17 @@ li{
 	margin: 1em 2em;
 }
 
+#georgie-main{
+	margin: 0 auto;
+	padding: 1em 2em;
+}
+#about{
+	padding: 0 20%;
+	margin: 0 auto;
+}
 .twitter{
 	margin: 2em;
 	height: 20%;
+	padding: 20% 0;
 }
 
