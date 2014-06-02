@@ -1,0 +1,13 @@
+
+#prodBanner{
+	padding: 0.7em;
+	margin: 3em;
+   background: #e43030;
+   color: #fff;
+   line-height: 1.3em;
+   border-radius: 10px;
+   box-shadow: 0 0 0 0 #646c68, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   font-weight: normal;
+	text-shadow: 3px 3px #545b57;
+	height: 13em;
+}
