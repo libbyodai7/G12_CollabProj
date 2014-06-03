@@ -1,21 +1,23 @@
 
 #ch-h{
 	padding: 0.7em;
-	margin: 3em;
-   background: #8d7de0;
+   margin: 3em auto;
+	width: 80%;
+   background: #76979c;
    color: #fff;
    line-height: 1.3em;
+   border: 4px dashed #fff;
    border-radius: 10px;
-   box-shadow: 0 0 0 0 #646c68, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   box-shadow: 0 0 0 4px #76979c, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
    font-weight: normal;
 	text-shadow: 3px 3px #545b57;
-	height: 13em;
 }
 .character-section{
-	text-align:justify;
 	color: #fff;
-	margin: 0 auto;
+	margin: 5% auto;
 	padding: 10%;
+	width: 80%;
+	border-radius: 10px;
 }
 #pete{
 	background-color: #56b04d;
@@ -45,7 +47,7 @@
 	display: -webkit- flex;
     flex-direction: column;
     justify-content: center;
-	margin: 5% 20% 5% 45%;
+	margin: 5% 20% 5% 20%;
 	border-radius: 50% 50%;
 	box-shadow: 0 0 0 0 #646c68, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
 	vertical-align: middle;
@@ -56,20 +58,16 @@
 p{
 	padding: 0 20%;
 }
+	
 h2{
-	color: #ffffff;
-	text-align:center;
-	font-size: 400%;
-	margin: 0 0 5% 0;
+	padding: 10% 20%;
+	text-align: center;
+	font-size: 300%;
+	font-family: 'Bree Serif', serif;
 }
-h5{
-	margin: -5% 0 -10% 0;
-}
-
 h3{
 	padding: 0 20%;
-	font-size: 150%;
-	font-family: 'Bree Serif', serif;
+	font-size: 200%;
 }
 h4{
 	padding: 0 20%;

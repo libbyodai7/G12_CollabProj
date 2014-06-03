@@ -1,48 +1,56 @@
 
 #videoBanner{
 	padding: 0.7em;
-	margin: 3em;
-   background: #e43030;
+   margin: 3em auto;
+	width: 80%;
+   background: #76979c;
    color: #fff;
    line-height: 1.3em;
+   border: 4px dashed #c62813;
    border-radius: 10px;
-   box-shadow: 0 0 0 0 #646c68, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   box-shadow: 0 0 0 4px #76979c, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
    font-weight: normal;
 	text-shadow: 3px 3px #545b57;
-	height: 13em;
-}
-
-h2{
-	color: #ffffff;
-	text-align:center;
-	font-size: 30px;
-}
-h5{
-}
-h3{
-	font-family: 'Bree Serif', serif;
-	font-size: 100%;
-	margin: 5% 20% -10% 20%;
 }
 
 #video-intro{
-	text-align:center;
-	padding 20% 20% 20% 20%;
+	margin: 10% auto;
+	padding 20%;
 	width: 100%;
 	position: relative;
 	background-color: #76979c;
-	font-family: limelight;
 	font-size: 300%;
-	height: auto;
-	color: white;
+	height: 70%;
 }
 
-#video intro li a{
+h3{
+	font-family: 'Bree Serif', serif;
+	font-size: 30px;
+	margin: 5% 20% -10% 20%;
+	color: #fff;
+}
+
+#video-intro li{
 	font-family: 'Bree Serif', serif;
 	font-size: 50%;
 	margin: 0.5em;
 	color: #fff;
+	list-style: none;
 }
+
+#video-intro li a:hover{
+	text-decoration: none;
+	color: #cecece;
+}
+
+#video-intro.affix{
+	position: fixed;
+	top: 0;
+	width:100%;
+}
+
+
+
 #humphrey{
 	text-align:center;
 	background-repeat:repeat;

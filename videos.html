@@ -24,44 +24,61 @@
 </head> 
 
 <body>
-<nav role="navigation" class="navbar navbar-default navbar-static-top">
- 
-    <div class="navbar-header">
-        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-        </button>
-        <a href="index.html" class="navbar-brand"><img src="images/logo.png" id="apple"></a>
-    </div>
-    <!-- Collection of nav links and other content for toggling -->
-    <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="videos.html">Our Sessions</a></li>
-			<li><a href="cupboard.html">Hubbard's Cupboard</a></li>
-			<li><a href="ask.html">Ask Georgie</a></li>
-            <li><a href="characters.html">Success Stories</a></li>
-			<li><a href="production.html">Behind the Scenes</a></li>
-        </ul>
-    </div>
-</nav>
+ <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-2.png" alt="Modern Rhymes">
+                </a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="videos.html">Sessions</a>
+                    </li>
+                    <li>
+                        <a href="cupboard.html">Hubbard's Cupboard</a>
+                    </li>
+                    <li>
+                        <a href="ask.html">Ask Georgie</a>
+                    </li>
+					
+					 <li>
+                        <a href="characters.html">Sucess Stories</a>
+                    </li>
+					
+					 <li>
+                        <a href="production.html">Behind the Scenes</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
 
 	<div id="videoBanner" class="container">
 		<h1>Our Sessions</h1><h5><br>Watch one of our sessions here</h5>
 	</div>
 	
-<section id="video-intro">
+<div id="vid-intro-wrapper">
+<div id="video-intro" class="container">
 
-	<h3>Get an inside look into the goings on at one of our sessions </h3>
+	<h3>Get an inside look of one of our sessions 
 	<br>
-	<h3><ul><li><a href="#humphrey">Another Brick in the Wall</a></li>
+	<ul><li><a href="#humphrey">Another Brick in the Wall</a></li>
 			<li><a href="#felix">These Boots Were Made for Walking</a></li>
 			<li><a href="#goldie">I Want to Break Free</a></li></ul></h3>
-</section>
+</div>
+	</div>
    
 <section id="humphrey">
 	
@@ -70,8 +87,6 @@
 	<div id="video-container">
 	
 	<video id="h_vid" class= "video-js vjs-default-skin" width="60%" height="auto" controls>
-		<source src="video/maru.mp4" type="video/mp4">
-		<source src="video/maru.ogg" type="video/ogg">
 		<h2>Your browser does not support the video tag. Please update your browser.</h2>
 		</video>
 	</div>
@@ -84,8 +99,6 @@
 	<div id="video-container">
 	
 <video id="f_vid" class= "video-js vjs-default-skin"  width="60%" height="auto" controls>
-		<source src="video/maru.mp4" type="video/mp4">
-		<source src="video/maru.ogg" type="video/ogg">
 		<h2>Your browser does not support the video tag. Please update your browser.</h2>
 		</video>
 	</div>
@@ -98,13 +111,20 @@
 	<div id="video-container">
 	
 		<video id="g_vid" class= "video-js vjs-default-skin" width="60%" height="auto" controls>
-		<source src="video/maru.mp4" type="video/mp4">
-		<source src="video/maru.ogg" type="video/ogg">
 		<h2>Your browser does not support the video tag. Please update your browser.</h2>
 		</video>
 	</div>
 </section>
 	
+<script>
+	$(function() {
+    $('#vid-intro-wrapper').height($("#video-intro").height());
+    
+    $('#video-intro').affix({
+        offset: { top: $('video-intro').offset().top }
+    });
+});
+	</script>
 	
 </body>
 </html>
