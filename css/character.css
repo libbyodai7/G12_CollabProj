@@ -24,10 +24,10 @@
 }
 
 #wolf{
-	background-color: #4e5593;
+	background-color: #6b80a4;
 }
 #humphrey{
-	background-color: #937654;
+	background-color: #e8c975;
 }
 #rudy{
 	background-color: #fb5151;
@@ -60,9 +60,8 @@ p{
 }
 	
 h2{
-	padding: 10% 20%;
 	text-align: center;
-	font-size: 300%;
+	font-size: 500%;
 	font-family: 'Bree Serif', serif;
 }
 h3{

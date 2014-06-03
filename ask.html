@@ -36,7 +36,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/logo-2.png" alt="Modern Rhymes">
+                    <img src="images/logo3.png" alt="Modern Rhymes">
                 </a>
             </div>
 
@@ -106,10 +106,10 @@
 	<div class="input-group">
 	<textarea id="ask-space" rows="4" cols="50"> Type your question here.</textarea>
 		<div id="buttons">
-		<span class="input-group-btn">
+		<span class="input-group-btn" "btn-responsive">
 		</span><button type="button" class="btn btn-custom" id="ask"> Ask Georgie! </button>
 		</span>
-		<span class="input-group-btn">
+		<span class="input-group-btn" "btn-responsive">
 			</span><button type="button" class="btn btn-custom" id="reset"> Ask another question. </button>
 		</span> </div>
 	</div>
@@ -179,7 +179,8 @@ I’ll pay by card</p></div>
 	reset.onclick = function()
 	{
 	document.getElementById(randAns).style.display = 'none';
-	document.getElementById("ask-space").value = "Type your question here."; };
+	document.getElementById("ask-space").value = "Type your question here.";
+	$('html, body').animate({ scrollTop: 0 }, 'fast');};
 	
 	</script>
 	

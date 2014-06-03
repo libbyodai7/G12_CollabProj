@@ -6,55 +6,62 @@
    background: #76979c;
    color: #fff;
    line-height: 1.3em;
-   border: 4px dashed #c62813;
+   border: 4px dashed #fff;
    border-radius: 10px;
    box-shadow: 0 0 0 4px #76979c, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
    font-weight: normal;
 	text-shadow: 3px 3px #545b57;
+	position: relative;
 }
 
-#video-intro{
-	margin: 10% auto;
-	padding 20%;
+.scroller_anchor{height:0px; margin:0; padding:0;}
+.scroller{
+	z-index: 100;
+	margin: 5% auto;
+	text-align: center;
+	padding: 2% auto;
 	width: 100%;
 	position: relative;
 	background-color: #76979c;
-	font-size: 300%;
-	height: 70%;
+	font-size: 200%;
+	height: 15%;
 }
 
 h3{
 	font-family: 'Bree Serif', serif;
-	font-size: 30px;
-	margin: 5% 20% -10% 20%;
+	font-size: 100%;
 	color: #fff;
 }
 
-#video-intro li{
+h4{
 	font-family: 'Bree Serif', serif;
-	font-size: 50%;
-	margin: 0.5em;
+	font-size: 60%;
 	color: #fff;
-	list-style: none;
 }
-
-#video-intro li a:hover{
+#tags li{
+	 list-style-type: none;
+}
+#tags ul li{
+	display: inline;
+}
+#tags a{
+	font-family: 'Bree Serif', serif;
+	font-size: 100%;
+	color: #ffa657;
+}
+#tags a:hover{
+	color: #9c9c9c;
 	text-decoration: none;
-	color: #cecece;
 }
-
-#video-intro.affix{
-	position: fixed;
-	top: 0;
-	width:100%;
+p{
+	color: #fff;
 }
 
 
 
 #humphrey{
 	text-align:center;
-	background-repeat:repeat;
-	background-color: #f9fbba;
+	background-color: #e8c975;
 	margin: 0 auto;
 	width: 100%;
 	height: auto;
@@ -62,7 +69,6 @@ h3{
 }
 #felix{
 	text-align:center;
-	background-repeat:repeat;
 	height: auto;
 	margin: 0 auto;
 	width: 100%;
@@ -71,8 +77,7 @@ h3{
 }
 #goldie{
 	text-align:center;
-	background-repeat:repeat;
-	background-color: #fbb7d2;
+	background-color: #f29ab9;
 	height: auto;
 	margin: 0 auto;
 	width: 100%;

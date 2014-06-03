@@ -114,7 +114,8 @@ textarea {
 	box-sizing: border-box;
 	font-family: 'Bad Script', cursive;
 	padding: 5%;
-	margin: 10px 10px;
+	display: block;
+	margin: 5% auto;
 	width: 100%;
 	border-radius: 10px;
 	background:  #5e5e5e;
@@ -163,4 +164,23 @@ h6{
 	padding: 0.7em;
 	color: #fff;
 }
+
+
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:100%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:120%;
+    line-height: 1.2;
+  }
+}
+
 
