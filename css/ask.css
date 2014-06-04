@@ -190,4 +190,18 @@ h6{
   }
 }
 
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+	#ask-pic{
+		
+	}
+	
+	.georgie-answers{
+		font-size: 100%;
+	}
+	
+	#quest-head{
+		font-size: 80%;
+	}
+}
+
 
