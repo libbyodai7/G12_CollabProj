@@ -73,32 +73,38 @@
 	<div id ="ans1" class="georgie-answers" "container"><div id="circle" "container">
 	
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
-</div>
-		you suck</div>
+</div><br> "Wow, I'm not sure how to react to that. First of all I'd say take a bath, then head to the nearest casino with your life savings and bet away. Someone with a problem is horrible as yours is due some luck"</div>
 	
 	<div id ="ans2" class="georgie-answers"><div id="circle">
 	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">
-</div>
-		2</div>
+</div><br>"I went through the exact same thing, I managed to get through it without any help, so grow a pair."</div>
+	
 	<div id ="ans3" class="georgie-answers"><div id="circle">
-	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		
-		3</div>
-	<div id ="ans4" class="georgie-answers"><div id="circle">
-	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		4</div>
-	<div id ="ans5" class="georgie-answers"><div id="circle">
-	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		6</div>
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie">	</div> <br>"Well, first of all it's pretty clear to me that this is all your fault. Maybe before trying to push the problem onto me you should just try not to be such a scumbag."</div>
+	
+	
+<div id ="ans4" class="georgie-answers"><div id="circle">
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div><br>"I think the solution here is to stuff your bra, it certainly makes everything easier for me."</div>
+	
+<div id ="ans5" class="georgie-answers"><div id="circle">
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div><br>"I want you to go to the TV, turn on BBC One, compare your problems to Phil Mitchell's, then
+realise that you're being over dramatic."</div>
+
 	<div id ="ans6" class="georgie-answers"><div id="circle">
-	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		</div>
-	<div id ="ans7" class="georgie-answers"><div id="circle">
-	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		8</div>
-	<div id ="ans8" class="georgie-answers"><div id="circle">
-	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div>
-		9</div>
+	<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div><br>"A spray on tan is definitely what you need, I'm sure it will fix everything."</div>
+	
+	<div id ="ans7" class="georgie-answers"><div id="circle"><img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div><br>"Get a dog, dogs make people happy, actually in your case I'd get like three dogs."</div>
+	"
+<div id ="ans8" class="georgie-answers"><div id="circle">
+<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div><br>"That's so funny, my cousin had the exact same problem! She's dead now."</div>
+	
+<div id ="ans9" class="georgie-answers"><div id="circle">
+<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div><br>"I heard a song that's perfect for helping you through this, I can't remember the name though, sorry."</div>
+</section>
+	
+<div id ="ans10" class="georgie-answers"><div id="circle">
+<img src="images/georgie.jpg" class="img-circle" class="img-responsive" id="ask-pic" alt="georgie"></div><br>"That's such a disturbing problem, and thinking about it upsets me. So I've decided that I'm not
+going to think about it."</div>
 </section>
 	
 <section id ="query" class="container">
@@ -167,20 +173,22 @@ I’ll pay by card</p></div>
 	</section>
 
 	<script>
-		
-	var answers = ["ans1", "ans2", "ans3", "ans4", "ans5", "ans6", "ans7", "ans8"];
-	var randAns = answers[Math.floor(Math.random()*answers.length)];
-	var ask = document.getElementById('ask');
-	var reset = document.getElementById('reset');
+	var answers = ["ans1", "ans2", "ans3", "ans4", "ans5", "ans6", "ans7", "ans8", "ans9", "ans10"];
 	
+		var ask = document.getElementById('ask');
+		var reset = document.getElementById('reset');
+		var randAns = answers[Math.floor(Math.random()*answers.length)];
+		
 	ask.onclick = function()
-	{ document.getElementById(randAns).style.display = 'block'; };
+	{	
+		document.getElementById(randAns).style.display = 'block'; };
 		
 	reset.onclick = function()
 	{
 	document.getElementById(randAns).style.display = 'none';
 	document.getElementById("ask-space").value = "Type your question here.";
-	$('html, body').animate({ scrollTop: 0 }, 'fast');};
+	$('html, body').animate({ scrollTop: 0 }, 'fast');
+	randAns = answers[Math.floor(Math.random()*answers.length)];};
 	
 	</script>
 	
